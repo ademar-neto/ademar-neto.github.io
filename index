@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Portfólio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Menu -->
+  <nav>
+    <ul class="menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Quem Sou</a></li>
+      <li class="dropdown">
+        <a href="#">Portfólio ▾</a>
+        <ul class="submenu">
+          <li><a href="#">Programação</a></li>
+          <li><a href="#">Design</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Contatos</a></li>
+      <li class="dropdown">
+        <a href="#">Idiomas ▾</a>
+        <ul class="submenu">
+          <li><a href="#">Português</a></li>
+          <li><a href="#">English</a></li>
+          <li><a href="#">Español</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Conteúdo -->
+  <main>
+    <h1>Bem-vindo ao meu portfólio!</h1>
+    <p>Este é o começo do meu site, em breve terá mais conteúdo!</p>
+  </main>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>Me siga nas redes sociais:</p>
+    <div class="redes">
+      <a href="https://github.com/seu-usuario" target="_blank">GitHub</a> |
+      <a href="https://linkedin.com/in/seu-usuario" target="_blank">LinkedIn</a> |
+      <a href="https://twitter.com/seu-usuario" target="_blank">Twitter</a>
+    </div>
+  </footer>
+
+</body>
+</html>
