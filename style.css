@@ -62,3 +62,15 @@ footer {
   text-align: center;
   padding: 10px;
 }
+
+.redes a {
+  color: white;
+  font-size: 28px;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.redes a:hover {
+  color: #ffcc00; /* cor ao passar o mouse */
+}
+
