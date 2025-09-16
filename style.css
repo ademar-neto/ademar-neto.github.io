@@ -1,76 +1,132 @@
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
+  font-family: 'Montserrat', sans-serif;
   background: #f4f4f4;
   color: #333;
 }
 
-nav {
-  background: #222;
-  padding: 10px;
+header {
+  background: #111;
+  padding: 15px 40px;
 }
 
-.menu {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.navbar {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.menu li {
-  position: relative;
+.navbar .logo {
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
 }
 
-.menu a {
-  color: white;
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
   text-decoration: none;
-  padding: 10px 15px;
-  display: block;
+  color: #fff;
+  transition: 0.3s;
 }
 
-.menu a:hover {
-  background: #444;
+.nav-links a:hover {
+  color: #00bcd4;
 }
 
-/* Submenu */
-.submenu {
+.dropdown {
   display: none;
   position: absolute;
-  background: #333;
+  background: #222;
   list-style: none;
-  margin: 0;
-  padding: 0;
-  min-width: 150px;
-}
-
-.submenu li a {
   padding: 10px;
 }
 
-.dropdown:hover .submenu {
+.nav-links li:hover .dropdown {
   display: block;
 }
 
-main {
-  padding: 20px;
+.hero {
   text-align: center;
+  padding: 50px 20px;
+  background: #222;
+  color: white;
+}
+
+.avatar {
+  width: 120px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.hero h1 {
+  font-size: 2rem;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #00bcd4;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #008c9e;
+}
+
+.social {
+  text-align: center;
+  padding: 30px;
+  background: #111;
+  color: white;
+}
+
+.icons a {
+  color: white;
+  font-size: 25px;
+  margin: 0 10px;
+  transition: 0.3s;
+}
+
+.icons a:hover {
+  transform: scale(1.2);
+}
+
+.sobre, .portfolio, .contatos {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
 }
 
 footer {
-  background: #222;
+  background: #111;
   color: white;
   text-align: center;
-  padding: 10px;
+  padding: 20px;
+  margin-top: 30px;
 }
-
-.redes a {
-  color: white;
-  font-size: 28px;
-  margin: 0 10px;
-  transition: color 0.3s;
-}
-
-.redes a:hover {
-  color: #ffcc00; /* cor ao passar o mouse */
-}
-
