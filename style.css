@@ -133,22 +133,26 @@ footer {
 
 footer.social {
   margin-top: 20px;
+  text-align: center;
 }
 
 footer.social a {
   margin: 0 10px;
   text-decoration: none;
   font-size: 28px;
-  color: #333;
+  color: white;
   transition: color 0.3s;
 }
 
 footer.social a:hover {
-  /*color: #0077b5; azul padrão, pode personalizar por rede */
-  footer.social a .fa-facebook:hover { color: #3b5998; }
-  footer.social a .fa-instagram:hover { color: #E4405F; }
-  footer.social a .fa-linkedin:hover { color: #0A66C2; }
-  footer.social a .fa-pinterest:hover { color: #BD081C; }
-  footer.social a .fa-youtube:hover { color: #FF0000; }
+  transform: scale(1.2);
 }
+
+/* Cores oficiais de cada rede */
+footer.social a .fa-facebook:hover { color: #3b5998; }
+footer.social a .fa-instagram:hover { color: #E4405F; }
+footer.social a .fa-linkedin:hover { color: #0A66C2; }
+footer.social a .fa-pinterest:hover { color: #BD081C; }
+footer.social a .fa-youtube:hover { color: #FF0000; }
+
 
