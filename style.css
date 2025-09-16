@@ -100,7 +100,7 @@ header {
   transform: scale(1.2);
 }
 
-.sobre, .portfolio, .contatos, .about, .contacts, acerca. , portafolio. , contactos {
+.sobre, .portfolio, .contatos, .about, .contacts, .acerca, .portafolio, .contactos {
   padding: 50px 20px;
   text-align: center;
 }
