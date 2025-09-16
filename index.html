@@ -3,55 +3,97 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Meu Portfólio</title>
+  <title>Portfólio - Ademar Neto</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome (ícones sociais) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
 
-  <!-- Menu -->
-  <nav>
-    <ul class="menu">
-      <li><a href="https://ademar-neto.github.io/">Home</a></li>
-      <li><a href="#">Quem Sou</a></li>
-      <li class="dropdown">
-        <a href="#">Portfólio ▾</a>
-        <ul class="submenu">
-          <li><a href="#">Programação</a></li>
-          <li><a href="#">Design</a></li>
-        </ul>
-      </li>
-      <li><a href="#">Contatos</a></li>
-      <li class="dropdown">
-        <a href="#">Idiomas ▾</a>
-        <ul class="submenu">
-          <li><a href="https://ademar-neto.github.io/">Português</a></li>
-          <li><a href="https://ademar-neto.github.io/english">English</a></li>
-          <li><a href="https://ademar-neto.github.io/espanol">Español</a></li>
-        </ul>
-      </li>
-    </ul>
-  </nav>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Ademar Neto</div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#sobre">Quem Sou</a></li>
+        <li><a href="#portfolio">Portfólio</a></li>
+        <li><a href="#contatos">Contatos</a></li>
+        <li>
+          <a href="#">Idiomas ▼</a>
+          <ul class="dropdown">
+            <li><a href="index.html">Português</a></li>
+            <li><a href="index-en.html">English</a></li>
+            <li><a href="index-es.html">Español</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
 
-  <!-- Conteúdo -->
-  <main>
+  <!-- Hero -->
+  <section class="hero">
+    <img src="avatar.jpg" alt="Foto de Ademar Neto" class="avatar">
     <h1>Bem-vindo ao meu portfólio!</h1>
     <p>Este é o começo do meu site, em breve terá mais conteúdo!</p>
-  </main>
+    <a href="#portfolio" class="btn">Veja meu trabalho</a>
+  </section>
+
+  <!-- Redes Sociais -->
+  <section class="social">
+    <h2>Me siga nas redes sociais:</h2>
+    <div class="icons">
+      <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://pinterest.com" target="_blank"><i class="fab fa-pinterest"></i></a>
+      <a href="https://tiktok.com" target="_blank"><i class="fab fa-tiktok"></i></a>
+      <a href="https://x.com" target="_blank"><i class="fab fa-x-twitter"></i></a>
+      <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+    </div>
+  </section>
+
+  <!-- Sobre -->
+  <section id="sobre" class="sobre">
+    <h2>Quem Sou</h2>
+    <p>Sou formado em TI, apaixonado por tecnologia, sobrevivencialismo e desenvolvimento de sistemas. Este site é meu espaço para compartilhar meus projetos e ideias.</p>
+  </section>
+
+  <!-- Projetos -->
+  <section id="portfolio" class="portfolio">
+    <h2>Projetos em Destaque</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Projeto 1</h3>
+        <p>Descrição breve do projeto. Em breve terá mais detalhes.</p>
+      </div>
+      <div class="card">
+        <h3>Projeto 2</h3>
+        <p>Descrição breve do projeto. Em breve terá mais detalhes.</p>
+      </div>
+      <div class="card">
+        <h3>Projeto 3</h3>
+        <p>Descrição breve do projeto. Em breve terá mais detalhes.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contatos" class="contatos">
+    <h2>Contato</h2>
+    <p>Gmail: <a href="mailto:ademarneto1202@gmail.com">ademarneto1202@gmail.com</a></p>
+    <p>Hotmail: <a href="mailto:afln12@hotmail.com">afln12@hotmail.com</a></p>
+    <p>Yahoo: <a href="mailto:afln02@yahoo.com">afln02@yahoo.com</a></p>
+  </section>
 
   <!-- Rodapé -->
   <footer>
-    <p>Me siga nas redes sociais:</p>
-    <div class="redes">
-      <a href="https://facebook.com/ademar.neto.35" target="_blank"><i class="fab fa-facebook"></i></a> 
-      <a href="https://github.com/ademar-neto" target="_blank"><i class="fab fa-github"></i></a> 
-      <a href="https://instagram.com/ademar___neto/" target="_blank"><i class="fab fa-instagram"></i></a> 
-      <a href="https://linkedin.com/in/ademarneto" target="_blank"><i class="fab fa-linkedin"></i></a> 
-      <a href="https://br.pinterest.com/ademar__neto/" target="_blank"><i class="fab fa-pinterest"></i></a> 
-      <a href="https://tiktok.com/@ademar___neto" target="_blank"><i class="fab fa-tiktok"></i></a> 
-      <a href="https://x.com/ademar_neto" target="_blank"><i class="fab fa-x"></i></a> 
-      <a href="https://youtube.com/@ademarneto2010" target="_blank"><i class="fab fa-youtube"></i></a>
-    </div>
+    <p>© 2025 - Desenvolvido por Ademar Ferreira Lima Neto</p>
   </footer>
 
 </body>
