@@ -144,9 +144,10 @@ footer.social a {
 }
 
 footer.social a:hover {
-  color: #0077b5; /* azul padrão, pode personalizar por rede */
+  /*color: #0077b5; azul padrão, pode personalizar por rede */
   footer.social a .fa-facebook:hover { color: #3b5998; }
   footer.social a .fa-instagram:hover { color: #E4405F; }
+  footer.social a .fa-linkedin:hover { color: #0A66C2; }
   footer.social a .fa-pinterest:hover { color: #BD081C; }
   footer.social a .fa-youtube:hover { color: #FF0000; }
 }
