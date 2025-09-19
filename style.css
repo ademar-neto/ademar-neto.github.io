@@ -100,7 +100,7 @@ header {
   color: var(--fa-primary-color, #00bcd4); /* pega cor do FA se existir */
 }
 
-.sobre, .portfolio, .contatos, .about, .contacts, .acerca, .portafolio, .contactos {
+.sobre, .portfolio, .contatos {
   padding: 50px 20px;
   text-align: center;
 }
