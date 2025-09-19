@@ -1,0 +1,18 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Me",
+    "portfolio": "Portfolio",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Welcome to my portfolio!",
+    "subtitle": "This is the beginning of my website, soon with more content.",
+    "button": "See my work"
+  },
+  "about": {
+    "title": "Who Am I",
+    "text": "I have a degree in IT, passionate about technology, survivalism, and system development. This site is my space to share projects and ideas."
+  },
+  "footer": "© 2025 - Developed by Ademar Ferreira Lima Neto"
+}
