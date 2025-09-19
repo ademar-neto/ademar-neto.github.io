@@ -14,5 +14,8 @@
     "title": "Who Am I",
     "text": "I have a degree in IT, passionate about technology, survivalism, and system development. This site is my space to share projects and ideas."
   },
-  "footer": "© 2025 - Developed by Ademar Ferreira Lima Neto"
+  "footer": {
+    "follow": "Follow me on social media:",
+    "rights": "© 2025 - Developed by Ademar Ferreira Lima Neto"
+  }
 }
