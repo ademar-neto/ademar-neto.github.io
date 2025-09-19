@@ -2,16 +2,18 @@
   <nav class="navbar">
     <div class="logo">Ademar Ferreira Lima Neto</div>
     <ul class="nav-links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="index.html#sobre">Quem Sou</a></li>
-      <li><a href="index.html#portfolio">Portfólio</a></li>
-      <li><a href="index.html#contatos">Contatos</a></li>
+      <li><a href="index.html" data-lang="nav.home">Home</a></li>
+      <li><a href="index.html#sobre" data-lang="nav.about">Quem Sou</a></li>
+      <li><a href="index.html#portfolio" data-lang="nav.portfolio">Portfólio</a></li>
+      <li><a href="index.html#contatos" data-lang="nav.contact">Contatos</a></li>
       <li>
         <a href="#">Idiomas ▼</a>
         <ul class="dropdown">
-          <li><a href="index-es.html">Espanhol</a></li>
-          <li><a href="index-en.html">Inglês</a></li>
-          <li><a href="index.html">Português</a></li>
+          <select id="languageSwitcher">
+            <li><option value="pt">🇧🇷 PT</option></li>
+            <li><option value="en">🇬🇧 EN</option></li>
+            <li><option value="es">🇪🇸 ES</option></li>
+          </select>
         </ul>
       </li>
     </ul>
