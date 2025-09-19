@@ -1,10 +1,10 @@
 {
   "nav": {
     "home": "Home",
-    "about": "Sobre mim",
-    "portfolio": "Portfolio",
-    "contact": "Contatos"
-  },
+    "about": "Quem Sou",
+    "portfolio": "Portfólio",
+    "contact": "Contato"
+  }
   "hero": {
     "title": "Bem vindo ao meu portfólio!",
     "subtitle": "Este é o começo do meu site, em breve terá mais conteúdo!",
@@ -14,5 +14,8 @@
     "title": "Quem sou",
     "text": "Sou formado em TI, apaixonado por tecnologia, sobrevivencialismo e desenvolvimento de sistemas. Este site é meu espaço para compartilhar meus projetos e ideias."
   },
-  "footer": "© 2025 - Desenvolvido por Ademar Ferreira Lima Neto"
+  "footer": {
+    "follow": "Me siga nas redes sociais:",
+    "rights": "© 2025 - Desenvolvido por Ademar Ferreira Lima Neto"
+  }
 }
