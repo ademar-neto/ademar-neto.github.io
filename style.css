@@ -52,8 +52,8 @@ header {
 
 .hero {
   text-align: center;
-  padding: 50px 20px;
-  background: #222;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #111, #333);
   color: white;
 }
 
@@ -91,13 +91,13 @@ header {
 
 .icons a {
   color: white;
-  font-size: 25px;
+  font-size: 28px;
   margin: 0 10px;
-  transition: 0.3s;
+  transition: transform 0.3s, color 0.3s;
 }
-
 .icons a:hover {
   transform: scale(1.2);
+  color: var(--fa-primary-color, #00bcd4); /* pega cor do FA se existir */
 }
 
 .sobre, .portfolio, .contatos, .about, .contacts, .acerca, .portafolio, .contactos {
@@ -112,15 +112,11 @@ header {
 }
 
 .card {
-  background: white;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  transition: 0.3s;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
 .card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
 }
 
 footer {
