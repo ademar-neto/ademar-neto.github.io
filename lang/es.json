@@ -1,0 +1,18 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "Acerca de mí",
+    "portfolio": "Portafolio",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "¡Bienvenido a mi portafolio!",
+    "subtitle": "Este es el comienzo de mi sitio web, pronto con más contenido.",
+    "button": "Ver mi trabajo"
+  },
+  "about": {
+    "title": "Quien soy yo",
+    "text": "Soy licenciado en informática y me apasiona la tecnología, la supervivencia y el desarrollo de sistemas. Este sitio es mi espacio para compartir proyectos e ideas."
+  },
+  "footer": "© 2025 - Desarrollado por Ademar Ferreira Lima Neto"
+}
