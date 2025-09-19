@@ -1,80 +1,42 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfólio - Ademar Ferreira Lima Neto</title>
+  <title data-lang="title">Portfólio - Ademar Ferreira Lima Neto</title>
   <link rel="stylesheet" href="style.css">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-
-  <!-- Font Awesome (ícones sociais) -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script src="js/lang.js" defer></script>
 </head>
 <body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#" data-lang="nav.home">Home</a></li>
+        <li><a href="#sobre" data-lang="nav.about">Quem Sou</a></li>
+        <li><a href="#portfolio" data-lang="nav.portfolio">Portfólio</a></li>
+        <li><a href="#contatos" data-lang="nav.contact">Contato</a></li>
+      </ul>
+      <select id="languageSwitcher">
+        <option value="pt">🇧🇷 PT</option>
+        <option value="en">🇬🇧 EN</option>
+        <option value="es">🇪🇸 ES</option>
+      </select>
+    </nav>
+  </header>
 
-  <!-- Navbar -->
-<header id="header"></header>
-
-  <!-- Hero -->
   <section class="hero">
-    <img src="avatar.jpg" alt="Foto de Ademar Neto" class="avatar">
-    <h1>Bem-vindo ao meu portfólio!</h1>
-    <p>Este é o começo do meu site, em breve terá mais conteúdo!</p>
-    <a href="#portfolio" class="btn">Veja meu trabalho</a>
-  </section>
-  
-  <!-- Sobre -->
-  <section id="sobre" class="sobre">
-    <h2>Quem Sou</h2>
-    <p>Sou formado em TI, apaixonado por tecnologia, sobrevivencialismo e desenvolvimento de sistemas. Este site é meu espaço para compartilhar meus projetos e ideias.</p>
+    <h1 data-lang="hero.title">Bem-vindo ao meu portfólio!</h1>
+    <p data-lang="hero.subtitle">Este é o começo do meu site, em breve terá mais conteúdo!</p>
+    <a href="#portfolio" class="btn" data-lang="hero.button">Veja meu trabalho</a>
   </section>
 
-  <!-- Projetos -->
-  <section id="portfolio" class="portfolio">
-    <h2>Projetos em Destaque</h2>
-    <div class="grid">
-      <div class="card">
-        <h3>Projeto 1</h3>
-        <p>Descrição breve do projeto. Em breve terá mais detalhes.</p>
-      </div>
-      <div class="card">
-        <h3>Projeto 2</h3>
-        <p>Descrição breve do projeto. Em breve terá mais detalhes.</p>
-      </div>
-      <div class="card">
-        <h3>Projeto 3</h3>
-        <p>Descrição breve do projeto. Em breve terá mais detalhes.</p>
-      </div>
-    </div>
+  <section id="sobre">
+    <h2 data-lang="about.title">Quem Sou</h2>
+    <p data-lang="about.text">Sou formado em TI, apaixonado por tecnologia...</p>
   </section>
 
-  <!-- Contato -->
-  <section id="contatos" class="contatos">
-    <h2>Contato</h2>
-    <p>Gmail: <a href="mailto:ademarneto1202@gmail.com">ademarneto1202@gmail.com</a></p>
-    <p>Hotmail: <a href="mailto:afln12@hotmail.com">afln12@hotmail.com</a></p>
-    <p>Yahoo: <a href="mailto:afln02@yahoo.com">afln02@yahoo.com</a></p>
-  </section>
-
-  <!-- Rodapé -->
-  <footer id="footer"></footer>
-  
-  <script>
-    async function loadHTML(id, file) {
-      let element = document.getElementById(id);
-      let response = await fetch(file);
-      if (response.ok) {
-        element.innerHTML = await response.text();
-      } else {
-        element.innerHTML = "Erro ao carregar " + file;
-      }
-    }
-
-    loadHTML("header", "header.html");
-    loadHTML("footer", "footer.html");
-  </script>
-  
+  <footer>
+    <p data-lang="footer">© 2025 - Desenvolvido por Ademar Ferreira Lima Neto</p>
+  </footer>
 </body>
 </html>
