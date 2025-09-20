@@ -1,0 +1,34 @@
+  "pt": {
+    "menu": {
+      "home": "Início",
+      "about": "Sobre mim",
+      "contact": "Contatos"
+    },
+    "footer": {
+      "social": "Me siga nas redes sociais:"
+      "copyright": "© 2025 - Desenvolvido por Ademar Ferreira Lima Neto"
+    }
+  },
+  "en": {
+    "menu": {
+      "home": "Home",
+      "about": "About me",
+      "contact": "Contacts"
+    },
+    "footer": {
+      "social": "Follow me on social media:"
+      "copyright": "© 2025 - Desenveloped by Ademar Ferreira Lima Neto"
+    }
+  }
+"es": {
+    "menu": {
+      "home": "Home",
+      "about": "Acerca de mí",
+      "contact": "Contactos"
+    },
+    "footer": {
+      "social": "Sígueme en las redes sociales:"
+      "copyright": "© 2025 - Desenvuelto por Ademar Ferreira Lima Neto"
+    }
+  }
+}
