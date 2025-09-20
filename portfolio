@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="title">Portfólio - Ademar Ferreira Lima Neto</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header id="header"></header>
+
+    <!-- Projetos -->
+  <section id="portfolio" class="portfolio">
+    <h2>Projetos em Destaque</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Projeto 1</h3>
+        <p>Descrição breve do projeto. Em breve terá mais detalhes.</p>
+      </div>
+      <div class="card">
+        <h3>Projeto 2</h3>
+        <p>Descrição breve do projeto. Em breve terá mais detalhes.</p>
+      </div>
+      <div class="card">
+        <h3>Projeto 3</h3>
+        <p>Descrição breve do projeto. Em breve terá mais detalhes.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer"></footer>
+
+  <script>
+    async function loadHTML(id, file) {
+      let element = document.getElementById(id);
+      let response = await fetch(file);
+      if (response.ok) {
+        element.innerHTML = await response.text();
+      } else {
+        element.innerHTML = "Erro ao carregar " + file;
+      }
+    }
+    loadHTML("header", "header.html");
+    loadHTML("footer", "footer.html");
+  </script>
+  <script src="js/translate.js"></script>
+
+  
+</body>
+</html>
