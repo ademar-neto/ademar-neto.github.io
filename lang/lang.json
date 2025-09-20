@@ -1,11 +1,13 @@
+{
   "pt": {
     "menu": {
       "home": "Início",
       "about": "Sobre mim",
+      "portfolio": "Portfólio",
       "contact": "Contatos"
     },
     "footer": {
-      "social": "Me siga nas redes sociais:"
+      "social": "Me siga nas redes sociais:",
       "copyright": "© 2025 - Desenvolvido por Ademar Ferreira Lima Neto"
     }
   },
@@ -13,22 +15,24 @@
     "menu": {
       "home": "Home",
       "about": "About me",
+      "portfolio": "Portfolio",
       "contact": "Contacts"
     },
     "footer": {
-      "social": "Follow me on social media:"
-      "copyright": "© 2025 - Desenveloped by Ademar Ferreira Lima Neto"
+      "social": "Follow me on social media:",
+      "copyright": "© 2025 - Developed by Ademar Ferreira Lima Neto"
     }
-  }
-"es": {
+  },
+  "es": {
     "menu": {
-      "home": "Home",
+      "home": "Inicio",
       "about": "Acerca de mí",
+      "portfolio": "Portafolio",
       "contact": "Contactos"
     },
     "footer": {
-      "social": "Sígueme en las redes sociales:"
-      "copyright": "© 2025 - Desenvuelto por Ademar Ferreira Lima Neto"
+      "social": "Sígueme en las redes sociales:",
+      "copyright": "© 2025 - Desarrollado por Ademar Ferreira Lima Neto"
     }
   }
 }
