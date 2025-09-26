@@ -128,6 +128,11 @@ header nav ul li a:hover {
   background: #008c9e;
 }
 
+/* Remova esta regra (não usada) */
+.nav-links li:hover .dropdown {
+  display: block;
+}
+
 .social {
   text-align: center;
   padding: 30px;
