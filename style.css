@@ -117,7 +117,7 @@ header nav ul li a:hover {
   color: var(--fa-primary-color, #00bcd4); /* pega cor do FA se existir */
 }
 
-.sobre, .programacao, .design, .contato {
+.about, .programming, .design, .contact {
   padding: 50px 20px;
   text-align: center;
 }
