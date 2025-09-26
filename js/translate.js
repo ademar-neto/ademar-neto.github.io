@@ -1,36 +1,50 @@
 function loadLanguage(lang) {
+  if (window.translationData) {
+    applyTranslations(lang);  // Use cache se disponível
+    return;
+  }
   fetch('lang/lang.json')
     .then(response => response.json())
     .then(data => {
-      document.querySelectorAll('[data-i18n]').forEach(el => {
-        let keys = el.getAttribute('data-i18n').split('.');
-        let text = data[lang];
-        keys.forEach(k => {
-          if (text) text = text[k];
-        });
-        if (text) {
-          if (el.tagName === 'TITLE') {
-            document.title = text;  // Tratamento especial para <title>
-          } else {
-            el.textContent = text;
-          }
-        }
-      });
+      window.translationData = data;  // Cache global
+      applyTranslations(lang);
     })
-    .catch(err => console.error('Erro ao carregar tradução:', err));
+    .catch(err => {
+      console.error('Erro ao carregar tradução:', err);
+      // Fallback: manter textos originais
+    });
+}
+
+function applyTranslations(lang) {
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    let keys = el.getAttribute('data-i18n').split('.');
+    let text = window.translationData[lang];
+    keys.forEach(k => {
+      if (text) text = text[k];
+    });
+    if (text) {
+      if (el.tagName === 'TITLE') {
+        document.title = text;
+      } else {
+        el.textContent = text;
+      }
+    }
+  });
+  localStorage.setItem('language', lang);  // Persistir idioma
 }
 
 // Função para carregar header e footer, e então aplicar tradução e listeners
-async function initPage(defaultLang = 'pt') {
-  await Promise.all([
+async function initPage() {
+  const defaultLang = localStorage.getItem('language') || 'pt';
+  await Promise.allSettled([
     loadHTML('header', 'header.html'),
     loadHTML('footer', 'footer.html')
   ]);
-  loadLanguage(defaultLang);  // Aplica tradução após loads
+  loadLanguage(defaultLang);
 
-  // Adiciona listener no switcher após header estar pronto
   const switcher = document.getElementById('languageSwitcher');
   if (switcher) {
+    switcher.value = defaultLang;  // Setar idioma salvo
     switcher.addEventListener('change', (e) => {
       loadLanguage(e.target.value);
     });
@@ -48,5 +62,5 @@ async function loadHTML(id, file) {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  initPage('pt');  // Inicia com português
+  initPage();
 });
