@@ -1,47 +1,199 @@
-/* Dropdown para Portfolio */
-.dropdown-parent {
-  position: relative;
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+
+/* Navbar */
+header nav {
+  background: #111;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  padding: 8px 14px;
+  border-radius: 5px;
+  transition: background 0.3s, color 0.3s;
+}
+
+header nav ul li a:hover {
+  background: #00bcd4;
+  color: #111;
+}
+
+#languageSwitcher {
+  background: #222;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#languageSwitcher:hover {
+  background: #00bcd4;
+  color: #111;
 }
 
 .dropdown {
   display: none;
   position: absolute;
-  top: 100%;  /* Abaixo do item pai */
-  left: 0;
-  background: #111;
+  background: #222;
   list-style: none;
-  padding: 10px 0;
-  margin: 0;
-  border-radius: 5px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  z-index: 10;
-  min-width: 150px;
+  padding: 10px;
 }
 
-.dropdown li {
-  margin: 0;
-}
-
-.dropdown li a {
+.nav-links li:hover .dropdown {
   display: block;
-  padding: 8px 16px;
-  color: #fff;
-  text-decoration: none;
-  transition: background 0.3s;
 }
 
-.dropdown li a:hover {
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #111, #333);
+  color: white;
+}
+
+.avatar {
+  width: 120px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.hero h1 {
+  font-size: 2rem;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
   background: #00bcd4;
-  color: #111;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.3s;
 }
 
-.dropdown-parent:hover .dropdown {
-  display: block;  /* Aparece ao hover */
+.btn:hover {
+  background: #008c9e;
 }
 
-/* Para mobile/touch: fallback para clique se necessário (mas hover funciona em touch como tap-hold) */
+.social {
+  text-align: center;
+  padding: 30px;
+  background: #111;
+  color: white;
+}
+
+.icons a {
+  color: white;
+  font-size: 28px;
+  margin: 0 10px;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.icons a:hover {
+  transform: scale(1.2);
+  color: var(--fa-primary-color, #00bcd4); /* pega cor do FA se existir */
+}
+
+.sobre, .portfolio, .contato {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+/* Redes sociais no footer */
+footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+footer .social h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+footer .icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+footer .icons a {
+  color: white;
+  font-size: 28px;
+  transition: transform 0.3s, color 0.3s;
+}
+
+footer .icons a:hover {
+  transform: scale(1.2);
+}
+
+/* Cores personalizadas por rede */
+footer .icons .fa-facebook:hover { color: #3b5998; }
+footer .icons .fa-instagram:hover { color: #E4405F; }
+footer .icons .fa-linkedin:hover { color: #0A66C2; }
+footer .icons .fa-pinterest:hover { color: #BD081C; }
+footer .icons .fa-youtube:hover { color: #FF0000; }
+
+/* Media Queries para responsividade */
 @media (max-width: 768px) {
-  .dropdown-parent:active .dropdown {
-    display: block;  /* Suporte básico para clique em mobile */
+  header nav {
+    flex-direction: column;
+    padding: 15px 20px;
+  }
+  header nav ul {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  #languageSwitcher {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .hero h1 {
+    font-size: 1.5rem;
+  }
+  .grid {
+    grid-template-columns: 1fr;
   }
 }
