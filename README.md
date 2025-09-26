@@ -1,5 +1,7 @@
 # Meu Portfólio
 
+[![GitHub stars](https://img.shields.io/github/stars/ademar-neto/ademar-neto.github.io)](https://github.com/ademar-neto/ademar-neto.github.io/stargazers)
+
 Este é o meu portfólio pessoal, focado em projetos de programação e design. Ainda em construção, mas em breve estará completo!
 
 Acesse o site: [https://ademar-neto.github.io/](https://ademar-neto.github.io/)
@@ -17,5 +19,8 @@ Acesse o site: [https://ademar-neto.github.io/](https://ademar-neto.github.io/)
 - Adicionar projetos reais com imagens e links.
 - Integrar buscador de produtos.
 - Melhorar responsividade e SEO.
+
+## Licença
+MIT License – veja LICENSE.md para detalhes.
 
 © 2025 - Ademar Ferreira Lima Neto
