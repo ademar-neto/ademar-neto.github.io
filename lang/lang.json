@@ -65,7 +65,7 @@
       "home": "Home",
       "about": "About me",
       "portfolio": "Portfolio",
-      "portfolio.programacao": "Programming",
+      "portfolio.programming": "Programming",
       "portfolio.design": "Design",
       "contact": "Contacts"
     },
@@ -125,7 +125,7 @@
       "home": "Inicio",
       "about": "Acerca de mí",
       "portfolio": "Portafolio",
-      "portfolio.programacao": "Programación",
+      "portfolio.programming": "Programación",
       "portfolio.design": "Diseño",
       "contact": "Contactos"
     },
