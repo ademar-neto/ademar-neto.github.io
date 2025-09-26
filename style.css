@@ -197,3 +197,50 @@ footer .icons .fa-youtube:hover { color: #FF0000; }
     grid-template-columns: 1fr;
   }
 }
+/* Dropdown para Portfolio */
+.dropdown-parent {
+  position: relative;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;  /* Abaixo do item pai */
+  left: 0;
+  background: #111;
+  list-style: none;
+  padding: 10px 0;
+  margin: 0;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+  min-width: 150px;
+}
+
+.dropdown li {
+  margin: 0;
+}
+
+.dropdown li a {
+  display: block;
+  padding: 8px 16px;
+  color: #fff;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.dropdown li a:hover {
+  background: #00bcd4;
+  color: #111;
+}
+
+.dropdown-parent:hover .dropdown {
+  display: block;  /* Aparece ao hover */
+}
+
+/* Para mobile/touch: fallback para clique se necessário (mas hover funciona em touch como tap-hold) */
+@media (max-width: 768px) {
+  .dropdown-parent:active .dropdown {
+    display: block;  /* Suporte básico para clique em mobile */
+  }
+}
