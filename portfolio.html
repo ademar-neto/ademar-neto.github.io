@@ -9,43 +9,24 @@
 </head>
 <body>
   <header id="header"></header>
-
-    <!-- Projetos -->
   <section id="portfolio" class="portfolio">
-    <h2>Projetos em Destaque</h2>
+    <h2 data-i18n="portfolio.title">Projetos em Destaque</h2>
     <div class="grid">
       <div class="card">
-        <h3>Projeto 1</h3>
-        <p>Descrição breve do projeto. Em breve terá mais detalhes.</p>
+        <h3 data-i18n="portfolio.project1.title">Projeto 1</h3>
+        <p data-i18n="portfolio.project1.desc">Descrição breve do projeto. Em breve terá mais detalhes.</p>
       </div>
       <div class="card">
-        <h3>Projeto 2</h3>
-        <p>Descrição breve do projeto. Em breve terá mais detalhes.</p>
+        <h3 data-i18n="portfolio.project2.title">Projeto 2</h3>
+        <p data-i18n="portfolio.project2.desc">Descrição breve do projeto. Em breve terá mais detalhes.</p>
       </div>
       <div class="card">
-        <h3>Projeto 3</h3>
-        <p>Descrição breve do projeto. Em breve terá mais detalhes.</p>
+        <h3 data-i18n="portfolio.project3.title">Projeto 3</h3>
+        <p data-i18n="portfolio.project3.desc">Descrição breve do projeto. Em breve terá mais detalhes.</p>
       </div>
     </div>
   </section>
-
   <footer id="footer"></footer>
-
-  <script>
-    async function loadHTML(id, file) {
-      let element = document.getElementById(id);
-      let response = await fetch(file);
-      if (response.ok) {
-        element.innerHTML = await response.text();
-      } else {
-        element.innerHTML = "Erro ao carregar " + file;
-      }
-    }
-    loadHTML("header", "header.html");
-    loadHTML("footer", "footer.html");
-  </script>
-  <script src="js/translate.js"></script>
-
-  
+  <script src="js/translate.js"></script>  <!-- initPage cuida de tudo -->
 </body>
 </html>
