@@ -9,29 +9,11 @@
 </head>
 <body>
   <header id="header"></header>
-
   <section id="sobre">
     <h2 data-i18n="about.title">Quem Sou</h2>
     <p data-i18n="about.text">Sou formado em TI, apaixonado por tecnologia...</p>
   </section>
-
   <footer id="footer"></footer>
-
-  <script>
-    async function loadHTML(id, file) {
-      let element = document.getElementById(id);
-      let response = await fetch(file);
-      if (response.ok) {
-        element.innerHTML = await response.text();
-      } else {
-        element.innerHTML = "Erro ao carregar " + file;
-      }
-    }
-    loadHTML("header", "header.html");
-    loadHTML("footer", "footer.html");
-  </script>
-  <script src="js/translate.js"></script>
-
-  
+  <script src="js/translate.js"></script>  <!-- initPage cuida de tudo -->
 </body>
 </html>
