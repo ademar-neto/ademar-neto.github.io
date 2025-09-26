@@ -1,10 +1,41 @@
 {
   "pt": {
+    "title": "Portfólio - Ademar Ferreira Lima Neto",
     "menu": {
       "home": "Início",
       "about": "Sobre mim",
       "portfolio": "Portfólio",
       "contact": "Contatos"
+    },
+    "hero": {
+      "title": "Bem-vindo ao meu portfólio!",
+      "subtitle": "Este é o começo do meu site, em breve terá mais conteúdo!",
+      "button": "Veja meu trabalho"
+    },
+    "about": {
+      "title": "Quem Sou",
+      "text": "Sou formado em TI, apaixonado por tecnologia..."
+    },
+    "portfolio": {
+      "title": "Projetos em Destaque",
+      "project1": {
+        "title": "Projeto 1",
+        "desc": "Descrição breve do projeto. Em breve terá mais detalhes."
+      },
+      "project2": {
+        "title": "Projeto 2",
+        "desc": "Descrição breve do projeto. Em breve terá mais detalhes."
+      },
+      "project3": {
+        "title": "Projeto 3",
+        "desc": "Descrição breve do projeto. Em breve terá mais detalhes."
+      }
+    },
+    "contact": {
+      "title": "Contatos",
+      "gmail": "Gmail: ademarneto1202@gmail.com",
+      "hotmail": "Hotmail: afln12@hotmail.com",
+      "yahoo": "Yahoo: afln02@yahoo.com"
     },
     "footer": {
       "social": "Me siga nas redes sociais:",
@@ -12,11 +43,42 @@
     }
   },
   "en": {
+    "title": "Portfolio - Ademar Ferreira Lima Neto",
     "menu": {
       "home": "Home",
       "about": "About me",
       "portfolio": "Portfolio",
       "contact": "Contacts"
+    },
+    "hero": {
+      "title": "Welcome to my portfolio!",
+      "subtitle": "This is the start of my site, more content coming soon!",
+      "button": "See my work"
+    },
+    "about": {
+      "title": "Who I Am",
+      "text": "I am graduated in IT, passionate about technology..."
+    },
+    "portfolio": {
+      "title": "Featured Projects",
+      "project1": {
+        "title": "Project 1",
+        "desc": "Brief project description. More details coming soon."
+      },
+      "project2": {
+        "title": "Project 2",
+        "desc": "Brief project description. More details coming soon."
+      },
+      "project3": {
+        "title": "Project 3",
+        "desc": "Brief project description. More details coming soon."
+      }
+    },
+    "contact": {
+      "title": "Contacts",
+      "gmail": "Gmail: ademarneto1202@gmail.com",
+      "hotmail": "Hotmail: afln12@hotmail.com",
+      "yahoo": "Yahoo: afln02@yahoo.com"
     },
     "footer": {
       "social": "Follow me on social media:",
@@ -24,11 +86,42 @@
     }
   },
   "es": {
+    "title": "Portafolio - Ademar Ferreira Lima Neto",
     "menu": {
       "home": "Inicio",
       "about": "Acerca de mí",
       "portfolio": "Portafolio",
       "contact": "Contactos"
+    },
+    "hero": {
+      "title": "¡Bienvenido a mi portafolio!",
+      "subtitle": "Este es el comienzo de mi sitio, ¡más contenido pronto!",
+      "button": "Ver mi trabajo"
+    },
+    "about": {
+      "title": "Quién Soy",
+      "text": "Soy graduado en TI, apasionado por la tecnología..."
+    },
+    "portfolio": {
+      "title": "Proyectos Destacados",
+      "project1": {
+        "title": "Proyecto 1",
+        "desc": "Descripción breve del proyecto. Más detalles pronto."
+      },
+      "project2": {
+        "title": "Proyecto 2",
+        "desc": "Descripción breve del proyecto. Más detalles pronto."
+      },
+      "project3": {
+        "title": "Proyecto 3",
+        "desc": "Descripción breve del proyecto. Más detalles pronto."
+      }
+    },
+    "contact": {
+      "title": "Contactos",
+      "gmail": "Gmail: ademarneto1202@gmail.com",
+      "hotmail": "Hotmail: afln12@hotmail.com",
+      "yahoo": "Yahoo: afln02@yahoo.com"
     },
     "footer": {
       "social": "Sígueme en las redes sociales:",
