@@ -12,6 +12,13 @@ body {
   flex-direction: column;
 }
 
+:root {
+  --primary-color: #00bcd4;
+  --design-color: #ff4081;
+  --dark-bg: #111;
+  --text-color: #fff;
+}
+
 /* Navbar */
 header nav {
   background: #111;
@@ -78,6 +85,22 @@ header nav ul li a:hover {
   padding: 60px 20px;
   background: linear-gradient(135deg, #111, #333);
   color: white;
+}
+
+.hero .btn {
+  margin: 10px;
+}
+
+.hero .btn-programming {
+  background: var(--primary-color);
+}
+
+.hero .btn-design {
+  background: var(--design-color);
+}
+
+.hero .btn:hover {
+  opacity: 0.9;
 }
 
 .avatar {
