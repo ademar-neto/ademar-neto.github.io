@@ -3,7 +3,13 @@
     <ul>
       <li><a href="https://ademar-neto.github.io/" data-i18n="menu.home"></a></li>
       <li><a href="https://ademar-neto.github.io/about" data-i18n="menu.about"></a></li>
-      <li><a href="https://ademar-neto.github.io/portfolio" data-i18n="menu.portfolio"></a></li>
+      <li class="dropdown-parent">
+        <a href="#" data-i18n="menu.portfolio"></a>  <!-- Link principal agora é # para não redirecionar -->
+        <ul class="dropdown">
+          <li><a href="https://ademar-neto.github.io/programacao" data-i18n="menu.portfolio.programacao">Programação</a></li>
+          <li><a href="https://ademar-neto.github.io/design" data-i18n="menu.portfolio.design">Design</a></li>
+        </ul>
+      </li>
       <li><a href="https://ademar-neto.github.io/contact" data-i18n="menu.contact"></a></li>
     </ul>
     <select id="languageSwitcher">
