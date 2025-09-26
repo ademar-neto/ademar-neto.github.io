@@ -9,6 +9,9 @@ body {
 header nav {
   background: #111;
   padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 header nav ul {
@@ -38,7 +41,6 @@ header nav ul li a:hover {
 }
 
 #languageSwitcher {
-  margin-left: auto;
   background: #222;
   color: white;
   border: none;
@@ -109,12 +111,13 @@ header nav ul li a:hover {
   margin: 0 10px;
   transition: transform 0.3s, color 0.3s;
 }
+
 .icons a:hover {
   transform: scale(1.2);
   color: var(--fa-primary-color, #00bcd4); /* pega cor do FA se existir */
 }
 
-.sobre, .portfolio, .contatos {
+.sobre, .portfolio, .contato {
   padding: 50px 20px;
   text-align: center;
 }
@@ -128,6 +131,7 @@ header nav ul li a:hover {
 .card {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 .card:hover {
   transform: translateY(-8px) scale(1.02);
   box-shadow: 0 6px 15px rgba(0,0,0,0.2);
@@ -170,3 +174,26 @@ footer .icons .fa-instagram:hover { color: #E4405F; }
 footer .icons .fa-linkedin:hover { color: #0A66C2; }
 footer .icons .fa-pinterest:hover { color: #BD081C; }
 footer .icons .fa-youtube:hover { color: #FF0000; }
+
+/* Media Queries para responsividade */
+@media (max-width: 768px) {
+  header nav {
+    flex-direction: column;
+    padding: 15px 20px;
+  }
+  header nav ul {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  #languageSwitcher {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .hero h1 {
+    font-size: 1.5rem;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
