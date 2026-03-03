@@ -5,8 +5,10 @@
       "home": "Início",
       "about": "Sobre mim",
       "portfolio": "Portfólio",
-      "portfolio.programming": "Programação",
-      "portfolio.design": "Design",
+      "portfolio_items":{
+        "portfolio.programming": "Programação",
+        "portfolio.design": "Design"
+      },
       "contact": "Contatos",
       "store": "Loja"
     },
@@ -67,8 +69,10 @@
       "home": "Home",
       "about": "About me",
       "portfolio": "Portfolio",
-      "portfolio.programming": "Programming",
-      "portfolio.design": "Design",
+      "portfolio_items":{
+        "portfolio.programming": "Programming",
+        "portfolio.design": "Design"
+      },
       "contact": "Contacts",
       "store": "Store"
     },
@@ -129,8 +133,10 @@
       "home": "Inicio",
       "about": "Acerca de mí",
       "portfolio": "Portafolio",
-      "portfolio.programming": "Programación",
-      "portfolio.design": "Diseño",
+      "portfolio_items":{
+        "portfolio.programming": "Programación",
+        "portfolio.design": "Diseño"
+      },
       "contact": "Contactos",
       "store": "Tienda"
     },
