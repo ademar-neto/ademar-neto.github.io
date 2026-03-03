@@ -7,7 +7,8 @@
       "portfolio": "Portfólio",
       "portfolio.programming": "Programação",
       "portfolio.design": "Design",
-      "contact": "Contatos"
+      "contact": "Contatos",
+      "store": "Loja"
     },
     "hero": {
       "title": "Bem-vindo ao meu portfólio!",
@@ -68,7 +69,8 @@
       "portfolio": "Portfolio",
       "portfolio.programming": "Programming",
       "portfolio.design": "Design",
-      "contact": "Contacts"
+      "contact": "Contacts",
+      "store": "Store"
     },
     "hero": {
       "title": "Welcome to my portfolio!",
@@ -129,7 +131,8 @@
       "portfolio": "Portafolio",
       "portfolio.programming": "Programación",
       "portfolio.design": "Diseño",
-      "contact": "Contactos"
+      "contact": "Contactos",
+      "store": "Tienda"
     },
     "hero": {
       "title": "¡Bienvenido a mi portafolio!",
