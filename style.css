@@ -81,7 +81,7 @@ header nav ul li a:hover {
 }
 
 .hero {
-  flex: 1
+  flex: 1;
   text-align: center;
   padding: 60px 20px;
   background: linear-gradient(135deg, #111, #333);
