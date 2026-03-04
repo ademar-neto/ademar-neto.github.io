@@ -6,8 +6,8 @@
       "about": "Sobre mim",
       "portfolio": "Portfólio",
       "portfolio_items":{
-        "portfolio.programming": "Programação",
-        "portfolio.design": "Design"
+        "programming": "Programação",
+        "design": "Design"
       },
       "contact": "Contatos",
       "store": "Loja"
@@ -70,8 +70,8 @@
       "about": "About me",
       "portfolio": "Portfolio",
       "portfolio_items":{
-        "portfolio.programming": "Programming",
-        "portfolio.design": "Design"
+        "programming": "Programming",
+        "design": "Design"
       },
       "contact": "Contacts",
       "store": "Store"
@@ -134,8 +134,8 @@
       "about": "Acerca de mí",
       "portfolio": "Portafolio",
       "portfolio_items":{
-        "portfolio.programming": "Programación",
-        "portfolio.design": "Diseño"
+        "programming": "Programación",
+        "design": "Diseño"
       },
       "contact": "Contactos",
       "store": "Tienda"
@@ -198,8 +198,8 @@
       "about": "Sur moi",
       "portfolio": "Portefeuille",
       "portfolio_items":{
-        "portfolio.programming": "Programmation",
-        "portfolio.design": "Conception"
+        "programming": "Programmation",
+        "design": "Conception"
       },
       "contact": "Contacts",
       "store": "Magasin"
