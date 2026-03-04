@@ -190,5 +190,69 @@
       "social": "Sígueme en las redes sociales:",
       "copyright": "© 2025 - Desarrollado por Ademar Ferreira Lima Neto"
     }
+  },
+  "fr": {
+    "title": "Portefeuille - Ademar Ferreira Lima Neto",
+    "menu": {
+      "home": "Commencer",
+      "about": "Sur moi",
+      "portfolio": "Portefeuille",
+      "portfolio_items":{
+        "portfolio.programming": "Programmation",
+        "portfolio.design": "Conception"
+      },
+      "contact": "Contacts",
+      "store": "Magasin"
+    },
+    "hero": {
+      "title": "Bienvenue sur mon portefeuille !",
+      "subtitle": "Voici le début de mon site, plus de contenu à venir bientôt !",
+      "button_programming": "Découvrez mes projets de programmation !",
+      "button_design": "Découvrez mes projets de design !"
+    },
+    "about": {
+      "title": "Qui Suis-Je",
+      "text": "Je suis diplômé en informatique et passionné par la technologie..."
+    },
+    "programming": {
+      "title": "Projets de programmation",
+      "project1": {
+        "title": "Projet 1",
+        "desc": "Brève description du projet de programmation. Plus de détails prochainement."
+      },
+      "project2": {
+        "title": "Projet 2",
+        "desc": "Brève description du projet de programmation. Plus de détails prochainement."
+      },
+      "project3": {
+        "title": "Projet 3",
+        "desc": "Brève description du projet de programmation. Plus de détails prochainement."
+      }
+    },
+    "design": {
+      "title": "Projets De Conception",
+      "project1": {
+        "title": "Projet De Conception 1",
+        "desc": "Brève description du projet de design. Plus de détails prochainement."
+      },
+      "project2": {
+        "title": "Projet De Conception 2",
+        "desc": "Brève description du projet de design. Plus de détails prochainement."
+      },
+      "project3": {
+        "title": "Projet De Conception 3",
+        "desc": "Brève description du projet de design. Plus de détails prochainement."
+      }
+    },
+    "contact": {
+      "title": "Contacts",
+      "gmail": "Gmail: ademarneto1202@gmail.com",
+      "hotmail": "Hotmail: afln12@hotmail.com",
+      "yahoo": "Yahoo: afln02@yahoo.com"
+    },
+    "footer": {
+      "social": "Suivez-moi sur les réseaux sociaux :",
+      "copyright": "© 2025 - Développé par Ademar Ferreira Lima Neto"
+    }
   }
 }
