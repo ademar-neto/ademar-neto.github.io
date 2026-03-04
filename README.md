@@ -9,7 +9,7 @@ Acesse o site: [https://ademar-neto.github.io/](https://ademar-neto.github.io/)
 ## Tecnologias Usadas
 - HTML5, CSS3, JavaScript
 - Font Awesome para ícones
-- Suporte a múltiplos idiomas (PT, EN, ES)
+- Suporte a múltiplos idiomas (PT, EN, ES, FR)
 
 ## Como Rodar Localmente
 1. Clone o repositório: `git clone https://github.com/ademar-neto/ademar-neto.github.io.git`
