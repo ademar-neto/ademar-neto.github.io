@@ -68,6 +68,7 @@ async function initPage() {
     switcher.value = defaultLang;  // Setar idioma salvo
     switcher.addEventListener('change', (e) => {
       loadLanguage(e.target.value);
+      initTheme();
     });
   }
 }
