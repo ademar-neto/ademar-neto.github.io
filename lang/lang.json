@@ -54,9 +54,9 @@
     },
     "contact": {
       "title": "Contatos",
-      "gmail": "Gmail: ademarneto1202@gmail.com",
-      "hotmail": "Hotmail: afln12@hotmail.com",
-      "yahoo": "Yahoo: afln02@yahoo.com"
+      "gmail_label": "Gmail: ademarneto1202@gmail.com",
+      "hotmail_label": "Hotmail: afln12@hotmail.com",
+      "yahoo_label": "Yahoo: afln02@yahoo.com"
     },
     "footer": {
       "social": "Me siga nas redes sociais:",
@@ -118,9 +118,9 @@
     },
     "contact": {
       "title": "Contacts",
-      "gmail": "Gmail: ademarneto1202@gmail.com",
-      "hotmail": "Hotmail: afln12@hotmail.com",
-      "yahoo": "Yahoo: afln02@yahoo.com"
+      "gmail_label": "Gmail: ademarneto1202@gmail.com",
+      "hotmail_label": "Hotmail: afln12@hotmail.com",
+      "yahoo_label": "Yahoo: afln02@yahoo.com"
     },
     "footer": {
       "social": "Follow me on social media:",
@@ -182,9 +182,9 @@
     },
     "contact": {
       "title": "Contactos",
-      "gmail": "Gmail: ademarneto1202@gmail.com",
-      "hotmail": "Hotmail: afln12@hotmail.com",
-      "yahoo": "Yahoo: afln02@yahoo.com"
+      "gmail_label": "Gmail: ademarneto1202@gmail.com",
+      "hotmail_label": "Hotmail: afln12@hotmail.com",
+      "yahoo_label": "Yahoo: afln02@yahoo.com"
     },
     "footer": {
       "social": "Sígueme en las redes sociales:",
@@ -246,9 +246,9 @@
     },
     "contact": {
       "title": "Contacts",
-      "gmail": "Gmail: ademarneto1202@gmail.com",
-      "hotmail": "Hotmail: afln12@hotmail.com",
-      "yahoo": "Yahoo: afln02@yahoo.com"
+      "gmail_label": "Gmail: ademarneto1202@gmail.com",
+      "hotmail_label": "Hotmail: afln12@hotmail.com",
+      "yahoo_label": "Yahoo: afln02@yahoo.com"
     },
     "footer": {
       "social": "Suivez-moi sur les réseaux sociaux :",
@@ -310,9 +310,9 @@
     },
     "contact": {
       "title": "Contatti",
-      "gmail": "Gmail: ademarneto1202@gmail.com",
-      "hotmail": "Hotmail: afln12@hotmail.com",
-      "yahoo": "Yahoo: afln02@yahoo.com"
+      "gmail_label": "Gmail: ademarneto1202@gmail.com",
+      "hotmail_label": "Hotmail: afln12@hotmail.com",
+      "yahoo_label": "Yahoo: afln02@yahoo.com"
     },
     "footer": {
       "social": "Seguimi sui social:",
@@ -374,9 +374,9 @@
     },
     "contact": {
       "title": "Kontakte",
-      "gmail": "Gmail: ademarneto1202@gmail.com",
-      "hotmail": "Hotmail: afln12@hotmail.com",
-      "yahoo": "Yahoo: afln02@yahoo.com"
+      "gmail_label": "Gmail: ademarneto1202@gmail.com",
+      "hotmail_label": "Hotmail: afln12@hotmail.com",
+      "yahoo_label": "Yahoo: afln02@yahoo.com"
     },
     "footer": {
       "social": "Folgen Sie mir in den sozialen Medien:",
@@ -438,9 +438,9 @@
     },
     "contact": {
       "title": "連絡先",
-      "gmail": "Gメール: ademarneto1202@gmail.com",
-      "hotmail": "ホットメール: afln12@hotmail.com",
-      "yahoo": "ヤフー: afln02@yahoo.com"
+      "gmail_label": "Gメール: ademarneto1202@gmail.com",
+      "hotmail_label": "ホットメール: afln12@hotmail.com",
+      "yahoo_label": "ヤフー: afln02@yahoo.com"
     },
     "footer": {
       "social": "ソーシャルメディアで私をフォローしてください:",
@@ -502,9 +502,9 @@
     },
     "contact": {
       "title": "联系方式",
-      "gmail": "邮箱： ademarneto1202@gmail.com",
-      "hotmail": "热邮件： afln12@hotmail.com",
-      "yahoo": "雅虎： afln02@yahoo.com"
+      "gmail_label": "邮箱： ademarneto1202@gmail.com",
+      "hotmail_label": "热邮件： afln12@hotmail.com",
+      "yahoo_label": "雅虎： afln02@yahoo.com"
     },
     "footer": {
       "social": "在社交媒体上关注我：",
@@ -566,9 +566,9 @@
     },
     "contact": {
       "title": "콘택트 렌즈",
-      "gmail": "지메일: ademarneto1202@gmail.com",
-      "hotmail": "핫메일: afln12@hotmail.com",
-      "yahoo": "야후: afln02@yahoo.com"
+      "gmail_label": "지메일: ademarneto1202@gmail.com",
+      "hotmail_label": "핫메일: afln12@hotmail.com",
+      "yahoo_label": "야후: afln02@yahoo.com"
     },
     "footer": {
       "social": "소셜 미디어에서 나를 팔로우하세요:",
