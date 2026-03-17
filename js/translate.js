@@ -62,13 +62,13 @@ async function initPage() {
     loadHTML('footer', 'footer.html')
   ]);
   loadLanguage(defaultLang);
+  initTheme();
 
   const switcher = document.getElementById('languageSwitcher');
   if (switcher) {
     switcher.value = defaultLang;  // Setar idioma salvo
     switcher.addEventListener('change', (e) => {
       loadLanguage(e.target.value);
-      initTheme();
     });
   }
 }
