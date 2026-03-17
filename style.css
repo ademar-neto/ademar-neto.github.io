@@ -166,7 +166,7 @@ header nav ul li a:hover {
 }
 
 .icons a {
-  color: white;
+  color: var(--text);
   font-size: 28px;
   margin: 0 10px;
   transition: transform 0.3s, color 0.3s;
