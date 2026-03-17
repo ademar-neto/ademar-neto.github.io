@@ -180,6 +180,9 @@ header nav ul li a:hover {
 .about, .programming, .design, .contact {
   padding: 50px 20px;
   text-align: center;
+  background: var(--bg);
+  color: var(--text);
+  flex: 1;  /* ← garante que essas páginas também não tenham linha branca */
 }
 
 .grid {
@@ -189,6 +192,9 @@ header nav ul li a:hover {
 }
 
 .card {
+  background: var(--card-bg);
+  border-radius: 8px;
+  padding: 20px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
