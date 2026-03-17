@@ -20,6 +20,11 @@ body {
   --text: #ffffff;
   --card-bg: #222;
   --nav-bg: #111;
+  --primary-color: #00bcd4;   /* ← estava faltando! */
+  --design-color: #ff4081;    /* ← estava faltando! */
+  --link-color: #ffffff;
+  --switcher-bg: #222;
+  --dropdown-bg: #222;
 }
 
 :root[data-theme="light"] {
@@ -28,6 +33,9 @@ body {
   --text: #111111;
   --card-bg: #ffffff;
   --nav-bg: #ffffff;
+  --link-color: #111111;
+  --switcher-bg: #dddddd;
+  --dropdown-bg: #ffffff;
 }
 
 /* Navbar */
@@ -54,7 +62,7 @@ header nav ul li {
 
 header nav ul li a {
   text-decoration: none;
-  color: #fff;
+  color: var(--link-color);  /* ← era color: #fff */
   font-weight: 500;
   padding: 8px 14px;
   border-radius: 5px;
@@ -101,7 +109,7 @@ header nav ul li a:hover {
   text-align: center;
   padding: 60px 20px;
   background: linear-gradient(135deg, var(--bg), var(--bg-secondary));
-  color: white;
+  color: var(--text);  /* ← era color: white */
 }
 
 .hero .btn {
@@ -153,8 +161,8 @@ header nav ul li a:hover {
 .social {
   text-align: center;
   padding: 30px;
-  background: #111;
-  color: white;
+  background: var(--nav-bg);  /* ← era #111 */
+  color: var(--text);         /* ← era white */
 }
 
 .icons a {
@@ -192,16 +200,16 @@ header nav ul li a:hover {
 /* Redes sociais no footer */
 footer {
   background: var(--nav-bg);
-  color: white;
+  color: var(--text);  /* ← era color: white */
   text-align: center;
   padding: 30px 20px;
-  margin-top: auto;  /* Empurra footer para o fundo */
+  margin-top: auto; /* Empurra footer para o fundo */
 }
 
 footer .social h2 {
   font-size: 18px;
   margin-bottom: 15px;
-  color: #fff;
+  color: var(--text);  /* ← era #fff fixo */
 }
 
 footer .icons {
@@ -212,7 +220,7 @@ footer .icons {
 }
 
 footer .icons a {
-  color: white;
+  color: var(--text);  /* ← era white fixo */
   font-size: 28px;
   transition: transform 0.3s, color 0.3s;
 }
@@ -240,8 +248,12 @@ footer .icons .fa-youtube:hover { color: #FF0000; }
     margin-top: 10px;
   }
   #languageSwitcher {
-    margin-left: 0;
-    margin-top: 10px;
+    background: var(--switcher-bg);  /* ← era #222 */
+    color: var(--text);              /* ← era white */
+    border: none;
+    padding: 6px 10px;
+    border-radius: 5px;
+    cursor: pointer;
   }
   .hero h1 {
     font-size: 1.5rem;
@@ -258,14 +270,14 @@ footer .icons .fa-youtube:hover { color: #FF0000; }
 .dropdown {
   display: none;
   position: absolute;
-  top: 100%;  /* Abaixo do item pai */
+  top: 100%;
   left: 0;
-  background: #111;
+  background: var(--dropdown-bg);  /* ← era #111 */
   list-style: none;
   padding: 10px 0;
   margin: 0;
   border-radius: 5px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
   z-index: 10;
   min-width: 150px;
 }
@@ -277,7 +289,7 @@ footer .icons .fa-youtube:hover { color: #FF0000; }
 .dropdown li a {
   display: block;
   padding: 8px 16px;
-  color: #fff;
+  color: var(--link-color);  /* ← era #fff fixo */
   text-decoration: none;
   transition: background 0.3s;
 }
