@@ -330,7 +330,7 @@
         "design": "Design"
       },
       "contact": "Kontakte",
-      "store": "Speichern"
+      "store": "Shop"
     },
     "hero": {
       "title": "Willkommen in meinem Portfolio!",
@@ -521,7 +521,7 @@
         "programming": "프로그램 작성",
         "design": "설계"
       },
-      "contact": "콘택트 렌즈",
+      "contact": "연락처",
       "store": "가게"
     },
     "hero": {
@@ -565,7 +565,7 @@
       }
     },
     "contact": {
-      "title": "콘택트 렌즈",
+      "title": "연락처",
       "gmail_label": "지메일: ademarneto1202@gmail.com",
       "hotmail_label": "핫메일: afln12@hotmail.com",
       "yahoo_label": "야후: afln02@yahoo.com"
