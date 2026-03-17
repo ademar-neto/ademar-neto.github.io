@@ -254,5 +254,325 @@
       "social": "Suivez-moi sur les réseaux sociaux :",
       "copyright": "© 2025 - Développé par Ademar Ferreira Lima Neto"
     }
+  },
+  "it": {
+    "title": "Portafoglio - Ademar Ferreira Lima Neto",
+    "menu": {
+      "home": "Inizio",
+      "about": "Su di me",
+      "portfolio": "Portafoglio",
+      "portfolio_items":{
+        "programming": "Programma",
+        "design": "Progetto"
+      },
+      "contact": "Contatti",
+      "store": "Negozio"
+    },
+    "hero": {
+      "title": "Benvenuti nel mio portafoglio!",
+      "subtitle": "Questo è l'inizio del mio sito, altri contenuti in arrivo!",
+      "button_programming": "Guarda i miei progetti di programmazione!",
+      "button_design": "Guarda i miei progetti di design!"
+    },
+    "about": {
+      "title": "Chi sono",
+      "text": "Sono laureato in informatica, appassionato di tecnologia..."
+    },
+    "programming": {
+      "title": "Progetti di programmazione",
+      "project1": {
+        "title": "Progetti 1",
+        "desc": "Breve descrizione del progetto di programmazione. Maggiori dettagli in arrivo."
+      },
+      "project2": {
+        "title": "Progetti 2",
+        "desc": "Breve descrizione del progetto di programmazione. Maggiori dettagli in arrivo."
+      },
+      "project3": {
+        "title": "Progetti 3",
+        "desc": "Breve descrizione del progetto di programmazione. Maggiori dettagli in arrivo."
+      }
+    },
+    "design": {
+      "title": "Progetti di design",
+      "project1": {
+        "title": "Progetti di design 1",
+        "desc": "Breve descrizione del progetto di design. Maggiori dettagli in arrivo."
+      },
+      "project2": {
+        "title": "Progetti di design 2",
+        "desc": "Breve descrizione del progetto di design. Maggiori dettagli in arrivo."
+      },
+      "project3": {
+        "title": "Progetti di design 3",
+        "desc": "Breve descrizione del progetto di design. Maggiori dettagli in arrivo."
+      }
+    },
+    "contact": {
+      "title": "Contatti",
+      "gmail": "Gmail: ademarneto1202@gmail.com",
+      "hotmail": "Hotmail: afln12@hotmail.com",
+      "yahoo": "Yahoo: afln02@yahoo.com"
+    },
+    "footer": {
+      "social": "Seguimi sui social:",
+      "copyright": "© 2025 - Sviluppato da Ademar Ferreira Lima Neto"
+    }
+  },
+  "de": {
+    "title": "Portfolio - Ademar Ferreira Lima Neto",
+    "menu": {
+      "home": "Heim",
+      "about": "Über mich",
+      "portfolio": "Portfolio",
+      "portfolio_items":{
+        "programming": "Programmierung",
+        "design": "Design"
+      },
+      "contact": "Kontakte",
+      "store": "Speichern"
+    },
+    "hero": {
+      "title": "Willkommen in meinem Portfolio!",
+      "subtitle": "Dies ist der Anfang meiner Website, weitere Inhalte folgen in Kürze!",
+      "button_programming": "Sehen Sie sich meine Programmierprojekte an!",
+      "button_design": "Sehen Sie sich meine Designprojekte an!"
+    },
+    "about": {
+      "title": "Wer ich bin",
+      "text": "Ich habe einen Abschluss in IT und habe eine Leidenschaft für Technologie ..."
+    },
+    "programming": {
+      "title": "Programmierprojekte",
+      "project1": {
+        "title": "Projekt 1",
+        "desc": "Kurze Beschreibung des Programmierprojekts. Weitere Details folgen in Kürze."
+      },
+      "project2": {
+        "title": "Projekt 2",
+        "desc": "Kurze Beschreibung des Programmierprojekts. Weitere Details folgen in Kürze."
+      },
+      "project3": {
+        "title": "Projekt 3",
+        "desc": "Kurze Beschreibung des Programmierprojekts. Weitere Details folgen in Kürze."
+      }
+    },
+    "design": {
+      "title": "Designprojekte",
+      "project1": {
+        "title": "Designprojekt 1",
+        "desc": "Kurze Beschreibung des Designprojekts. Weitere Details folgen in Kürze."
+      },
+      "project2": {
+        "title": "Designprojekt 2",
+        "desc": "Kurze Beschreibung des Designprojekts. Weitere Details folgen in Kürze."
+      },
+      "project3": {
+        "title": "Designprojekt 3",
+        "desc": "Kurze Beschreibung des Designprojekts. Weitere Details folgen in Kürze."
+      }
+    },
+    "contact": {
+      "title": "Kontakte",
+      "gmail": "Gmail: ademarneto1202@gmail.com",
+      "hotmail": "Hotmail: afln12@hotmail.com",
+      "yahoo": "Yahoo: afln02@yahoo.com"
+    },
+    "footer": {
+      "social": "Folgen Sie mir in den sozialen Medien:",
+      "copyright": "© 2025 – Entwickelt von Ademar Ferreira Lima Neto"
+    }
+  },
+  "ja": {
+    "title": "ポートフォリオ - アデマール・フェレイラ・リマ・ネト",
+    "menu": {
+      "home": "家",
+      "about": "私について",
+      "portfolio": "ポートフォリオ",
+      "portfolio_items":{
+        "programming": "プログラミング",
+        "design": "デザイン"
+      },
+      "contact": "連絡先",
+      "store": "店"
+    },
+    "hero": {
+      "title": "私のポートフォリオへようこそ！",
+      "subtitle": "これが私のサイトの始まりであり、さらに多くのコンテンツが近々公開される予定です。",
+      "button_programming": "私のプログラミングプロジェクトをご覧ください!",
+      "button_design": "私のデザインプロジェクトをご覧ください!"
+    },
+    "about": {
+      "title": "私という人間",
+      "text": "私は IT 学科を卒業しており、テクノロジーに情熱を持っています。"
+    },
+    "programming": {
+      "title": "プログラミングプロジェクト",
+      "project1": {
+        "title": "プロジェクト1",
+        "desc": "プログラミング プロジェクトの簡単な説明。詳細については近日公開予定です。"
+      },
+      "project2": {
+        "title": "プロジェクト2",
+        "desc": "プログラミング プロジェクトの簡単な説明。詳細については近日公開予定です。"
+      },
+      "project3": {
+        "title": "プロジェクト3",
+        "desc": "プログラミング プロジェクトの簡単な説明。詳細については近日公開予定です。"
+      }
+    },
+    "design": {
+      "title": "デザインプロジェクト",
+      "project1": {
+        "title": "デザインプロジェクト1",
+        "desc": "設計プロジェクトの簡単な説明。詳細については近日公開予定です。"
+      },
+      "project2": {
+        "title": "デザインプロジェクト2",
+        "desc": "設計プロジェクトの簡単な説明。詳細については近日公開予定です。"
+      },
+      "project3": {
+        "title": "デザインプロジェクト3",
+        "desc": "設計プロジェクトの簡単な説明。詳細については近日公開予定です。"
+      }
+    },
+    "contact": {
+      "title": "連絡先",
+      "gmail": "Gメール: ademarneto1202@gmail.com",
+      "hotmail": "ホットメール: afln12@hotmail.com",
+      "yahoo": "ヤフー: afln02@yahoo.com"
+    },
+    "footer": {
+      "social": "ソーシャルメディアで私をフォローしてください:",
+      "copyright": "© 2025 - アデマール・フェレイラ・リマ・ネト開発"
+    }
+  },
+  "zh": {
+    "title": "作品集 - Ademar Ferreira Lima Neto",
+    "menu": {
+      "home": "家",
+      "about": "关于我",
+      "portfolio": "文件夹",
+      "portfolio_items":{
+        "programming": "编程",
+        "design": "设计"
+      },
+      "contact": "联系方式",
+      "store": "店铺"
+    },
+    "hero": {
+      "title": "欢迎来到我的投资组合！",
+      "subtitle": "这是我的网站的开始，更多内容即将推出！",
+      "button_programming": "查看我的编程项目！",
+      "button_design": "看看我的设计项目！"
+    },
+    "about": {
+      "title": "我是谁",
+      "text": "我毕业于IT专业，对技术充满热情..."
+    },
+    "programming": {
+      "title": "编程项目",
+      "project1": {
+        "title": "项目1",
+        "desc": "简要的编程项目描述。更多详细信息即将推出。"
+      },
+      "project2": {
+        "title": "项目2",
+        "desc": "简要的编程项目描述。更多详细信息即将推出。"
+      },
+      "project3": {
+        "title": "项目3",
+        "desc": "简要的编程项目描述。更多详细信息即将推出。"
+      }
+    },
+    "design": {
+      "title": "设计项目",
+      "project1": {
+        "title": "设计项目1",
+        "desc": "简要的设计项目描述。更多详细信息即将推出。"
+      },
+      "project2": {
+        "title": "设计项目2",
+        "desc": "简要的设计项目描述。更多详细信息即将推出。"
+      },
+      "project3": {
+        "title": "设计项目3",
+        "desc": "简要的设计项目描述。更多详细信息即将推出。"
+      }
+    },
+    "contact": {
+      "title": "联系方式",
+      "gmail": "邮箱： ademarneto1202@gmail.com",
+      "hotmail": "热邮件： afln12@hotmail.com",
+      "yahoo": "雅虎： afln02@yahoo.com"
+    },
+    "footer": {
+      "social": "在社交媒体上关注我：",
+      "copyright": "© 2025 - 由 Ademar Ferreira Lima Neto 开发"
+    }
+  },
+  "ko": {
+    "title": "포트폴리오 - Ademar Ferreira Lima Neto",
+    "menu": {
+      "home": "집",
+      "about": "나에 대해",
+      "portfolio": "포트폴리오",
+      "portfolio_items":{
+        "programming": "프로그램 작성",
+        "design": "설계"
+      },
+      "contact": "콘택트 렌즈",
+      "store": "가게"
+    },
+    "hero": {
+      "title": "내 포트폴리오에 오신 것을 환영합니다!",
+      "subtitle": "이것은 내 사이트의 시작입니다. 더 많은 콘텐츠가 곧 제공될 예정입니다!",
+      "button_programming": "내 프로그래밍 프로젝트를 보세요!",
+      "button_design": "내 디자인 프로젝트를 보세요!"
+    },
+    "about": {
+      "title": "나는 누구인가",
+      "text": "저는 IT를 전공하고 기술에 대한 열정이 있습니다."
+    },
+    "programming": {
+      "title": "프로그래밍 프로젝트",
+      "project1": {
+        "title": "프로젝트 1",
+        "desc": "간략한 프로그래밍 프로젝트 설명. 자세한 내용은 곧 제공될 예정입니다."
+      },
+      "project2": {
+        "title": "프로젝트 2",
+        "desc": "간략한 프로그래밍 프로젝트 설명. 자세한 내용은 곧 제공될 예정입니다."
+      },
+      "project3": {
+        "title": "프로젝트 13",
+        "desc": "간략한 프로그래밍 프로젝트 설명. 자세한 내용은 곧 제공될 예정입니다."
+      }
+    },
+    "design": {
+      "title": "디자인 프로젝트",
+      "project1": {
+        "title": "디자인 프로젝트 1",
+        "desc": "간략한 디자인 프로젝트 설명. 자세한 내용은 곧 제공될 예정입니다."
+      },
+      "project2": {
+        "title": "디자인 프로젝트 2",
+        "desc": "간략한 디자인 프로젝트 설명. 자세한 내용은 곧 제공될 예정입니다."
+      },
+      "project3": {
+        "title": "디자인 프로젝트 3",
+        "desc": "간략한 디자인 프로젝트 설명. 자세한 내용은 곧 제공될 예정입니다."
+      }
+    },
+    "contact": {
+      "title": "콘택트 렌즈",
+      "gmail": "지메일: ademarneto1202@gmail.com",
+      "hotmail": "핫메일: afln12@hotmail.com",
+      "yahoo": "야후: afln02@yahoo.com"
+    },
+    "footer": {
+      "social": "소셜 미디어에서 나를 팔로우하세요:",
+      "copyright": "© 2025 - Ademar Ferreira Lima Neto 개발"
+    }
   }
 }
